@@ -1,0 +1,418 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: #dae3e7;
+  transition: all 0.3s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  width: 95%;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-img img {
+  border-radius: 100%;
+  width: 100px;
+  height: 100%;
+}
+.header-img {
+  display: flex;
+  margin: 10px;
+}
+
+.header-description {
+  display: flex;
+  align-items: center;
+}
+
+.header-text {
+  margin: 0px;
+}
+i {
+  margin-bottom: -10px;
+}
+
+#i-twit {
+  background-color: rgb(199, 188, 188);
+  padding: 5px;
+  margin: 0 5px;
+  border-radius: 30px;
+}
+#i-git {
+  background-color: rgb(199, 188, 188);
+  padding: 5px;
+  border-radius: 30px;
+  margin: 0 5px;
+}
+#i-yout {
+  background-color: rgb(199, 188, 188);
+  padding: 5px;
+  border-radius: 30px;
+  margin: 5px;
+}
+
+.header-button {
+  display: flex;
+  align-items: center;
+}
+
+.header-button button {
+  border-radius: 5px;
+  background-color: rgb(130, 207, 14);
+  padding: 5px;
+  height: 30px;
+  border: none;
+}
+
+.about-inner {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+.about-text {
+  display: block;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-link {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  display: block;
+}
+
+.works-text {
+  display: block;
+  width: 100%;
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.works-link {
+  color: rgb(129, 189, 39);
+}
+
+.works-header {
+  display: flex;
+  align-items: center;
+}
+
+.works-inner {
+  display: flex;
+}
+
+.works-header h1 {
+  margin-right: 10px;
+}
+
+.works-header p {
+  background-color: rgb(159, 221, 66);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.works-link a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(129, 189, 39);
+}
+
+.works-git {
+  border: 0px;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(78, 78, 207);
+  font-size: 20px;
+  color: white;
+}
+
+.works-git:hover {
+  background-color: white;
+  border: 3px solid rgb(78, 78, 207);
+  transition: 0.5s;
+  color: black;
+}
+
+.lvl {
+  background-color: rgb(211, 198, 198);
+}
+
+.progress {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  display: block;
+  height: 50%;
+}
+
+.progress-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress-text p {
+  font-weight: 500;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+#html {
+  width: 100%;
+  height: 15px;
+  background-color: rgb(175, 231, 90);
+}
+
+#css {
+  width: 80%;
+  height: 15px;
+  background-color: rgb(175, 231, 90);
+}
+
+#js {
+  width: 60%;
+  height: 15px;
+  background-color: rgb(175, 231, 90);
+}
+
+#react {
+  width: 40%;
+  height: 15px;
+  background-color: rgb(175, 231, 90);
+}
+
+.experience-inner {
+  display: flex;
+  align-items: center;
+}
+
+.experience-text {
+  display: block;
+  width: 100%;
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.experience-parag {
+  margin: 10px;
+}
+
+.experience-parag p {
+  opacity: 0.7;
+}
+
+.experience-review {
+  width: 100%;
+  padding-left: 10px;
+  background-color: white;
+  margin-left: 10px;
+  display: block;
+  height: 50%;
+}
+
+.review-text p {
+  padding: 10px;
+  border-left: 5px solid rgb(67, 202, 67);
+}
+
+#q {
+  color: rgb(50, 219, 92);
+  padding: 5px;
+}
+
+.cur {
+  opacity: 0.6;
+  padding-left: 10px;
+}
+
+.more {
+  color: rgb(83, 175, 83);
+  padding: 10px;
+}
+
+.asides {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-language {
+  width: 100%;
+  padding-left: 10px;
+  background-color: white;
+  margin: 10px;
+  display: block;
+  height: 40%;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+.all {
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-around;
+}
+
+footer {
+  background-color: rgb(0, 105, 146);
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#green {
+  color: rgb(107, 228, 107);
+  margin: 2px;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+}
+
+.line p {
+  margin: 10px;
+}
+
+.line span {
+  opacity: 0.7;
+}
+
+.dark-blocks {
+  background-color: #6d6868;
+}
+
+.dark-mode {
+  background-color: #373737;
+  color: white;
+}
+
+.burgerMenu {
+  width: 3%;
+}
+
+.burger {
+  width: 40px;
+  height: 4px;
+  transform: translate(-50%, -50%);
+  background: black;
+  transition: 0.5s;
+  display: inline-block;
+  margin-left: 12px;
+  position: relative;
+  display: none;
+}
+
+.burger::before,
+.burger::after {
+  content: "";
+  width: 40px;
+  height: 4px;
+  position: absolute;
+  background: black;
+  transition: 0.5s;
+}
+
+.burger::before {
+  top: -16px;
+}
+
+.burger::after {
+  top: 16px;
+}
+
+.header-description .active .burger {
+  background: rgba(0, 0, 0, 0);
+}
+
+.header-description .active .burger:before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.header-description .active .burger:after {
+  top: 0;
+  transform: rotate(135deg);
+}
+
+.burgerClose {
+  display: none;
+}
+
+@media (min-width: 721) {
+  .asides {
+    display: flex;
+  }
+}
+
+@media (max-width: 721px) {
+  .burgerClose {
+    display: block;
+  }
+  .container {
+    width: auto;
+    margin: 0;
+  }
+
+  .asides {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    width: 50%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .blocks {
+    width: 90%;
+  }
+
+  .all {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  footer {
+    width: 720px;
+  }
+
+  .burger {
+    display: block;
+  }
+}
